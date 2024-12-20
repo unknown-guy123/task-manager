@@ -4,6 +4,9 @@ class task():
         self.task = ""
         self.status = "Pending..."
 
+class FileDataInSequence():
+    def __init__(self):
+        self.data_sequence = []
 
 UserTask = task()
 
